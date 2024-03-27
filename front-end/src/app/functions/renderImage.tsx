@@ -1,16 +1,11 @@
-import Image, { StaticImageData } from "next/image";
-
-interface RenderImageProps {
-  princialImage: StaticImageData;
-  BluerImage: string;
-  alt: string;
-}
+import Image from "next/image";
+import { renderImageProps } from "../types/renderImage";
 
 export function RenderImage({
   princialImage,
   BluerImage,
   alt,
-}: RenderImageProps) {
+}: renderImageProps) {
   return (
     <figure>
       <Image
