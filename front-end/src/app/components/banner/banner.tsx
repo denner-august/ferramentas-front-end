@@ -1,6 +1,6 @@
-import Image from "next/image";
 import styles from "./banner.module.scss";
 import PrincipalImage from "@/../public/image/principal/header.jpg";
+import { RenderImage } from "@/app/functions/renderImage";
 
 export function Banner() {
   return (
@@ -20,14 +20,10 @@ export function Banner() {
       </div>
 
       <figure>
-        <Image
-          src={PrincipalImage}
-          alt="como podemos te ajudar?"
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
-          blurDataURL={`${PrincipalImage}`}
+        <RenderImage
+          princialImage={PrincipalImage}
+          alt="comom podemos te ajudar"
+          BluerImage={`${PrincipalImage}`}
         />
       </figure>
     </div>

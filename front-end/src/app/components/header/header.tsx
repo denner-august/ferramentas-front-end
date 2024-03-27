@@ -1,5 +1,6 @@
 import styles from "./header.module.scss";
 import { RenderLinks } from "@/app/functions/renderLinks";
+
 export function Header() {
   return (
     <header className={styles.header}>
