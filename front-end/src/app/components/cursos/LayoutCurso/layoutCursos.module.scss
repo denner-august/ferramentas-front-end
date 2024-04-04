@@ -1,0 +1,28 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: auto;
+
+  border: 0.3rem solid black;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  padding: 1rem;
+
+  p {
+    font-size: 0.2rem;
+  }
+
+  button {
+    height: 3rem;
+    width: 15rem;
+
+    margin-top: 1rem;
+
+    cursor: pointer;
+
+    a {
+      font-size: 1.3rem;
+    }
+  }
+}
