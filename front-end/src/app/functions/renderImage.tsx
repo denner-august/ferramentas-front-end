@@ -9,6 +9,7 @@ export function RenderImage({
   return (
     <figure>
       <Image
+        priority={true}
         src={princialImage}
         alt={alt}
         style={{

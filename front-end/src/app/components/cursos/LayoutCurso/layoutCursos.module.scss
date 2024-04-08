@@ -26,3 +26,20 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .Container {
+    justify-content: center;
+    width: auto;
+    margin: 1rem 0px;
+
+    padding: 1rem 0rem;
+
+    button {
+      width: auto;
+      text-align: center;
+
+      width: 7rem;
+    }
+  }
+}
